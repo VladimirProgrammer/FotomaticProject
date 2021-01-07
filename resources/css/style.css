@@ -37,7 +37,10 @@ body {
     top: 2.5625rem;
   }
 }
-
+.logo{
+  text-decoration: none;
+  color: #4a4a4a;
+}
 /* Header */
 
 header {
@@ -68,6 +71,7 @@ header nav ul {
 nav li {
   padding-left: 3.5rem;
   list-style-type: none;
+  
 }
 
 nav a {
@@ -75,6 +79,7 @@ nav a {
   line-height: 1.6;
   font-size: 1rem;
   color: #4a4a4a;
+  text-decoration: none;
 }
 /*
 header .icon {
@@ -114,11 +119,13 @@ header .mobile {
 @media only screen and (max-width: 600px) {
   header .desktop {
     display: none;
+    
   }
 
   header .mobile {
     display: block;
     width: 100%;
+  
   }
 
   header .content {
@@ -130,10 +137,12 @@ header .mobile {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    
   }
 
   header .mobile li {
     padding: 0;
+    
   }
 
 }
